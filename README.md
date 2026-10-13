@@ -1,4 +1,4 @@
-# Used Car Price Estimator 🚗💰
+# Used Car Price Estimator 
 ### Predicting Fair Market Value of Pre-Owned Vehicles Using Regression-Based Machine Learning
 
 **Academic Project** for Machine Learning Course  
@@ -12,7 +12,7 @@
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 The used car market suffers from inconsistent and often subjective pricing, leaving buyers and sellers unsure of a vehicle's fair value. Sellers overprice and buyers underbid due to the lack of an objective, data-driven reference price.
 
 This project implements an end-to-end Machine Learning system that accurately estimates the fair market resale value of pre-owned cars based on vehicle attributes, usage history, engine specifications, and brand equity.
@@ -26,12 +26,12 @@ The system incorporates:
 
 ---
 
-## 🏆 Key Results & Performance
+## Key Results & Performance
 | Model | R² Score (%) | MAE (₹ Lakhs) | RMSE (₹ Lakhs) | Training Time |
 | :--- | :---: | :---: | :---: | :---: |
 | **Linear Regression** | 75.35% | ₹ 1.36L | ₹ 2.24L | ~0.03s |
 | **Random Forest Regressor** | 96.15% | ₹ 0.49L | ₹ 0.89L | ~0.15s |
-| **Gradient Boosting (Best)** 🏆 | **98.02%** | **₹ 0.37L** | **₹ 0.64L** | ~0.95s |
+| **Gradient Boosting (Best)**  | **98.02%** | **₹ 0.37L** | **₹ 0.64L** | ~0.95s |
 
 - **Target Accuracy**: 85%+ (Surpassed: **98.02%**)
 - **Inference Latency**: < 15ms (Surpassed: < 1s target)
@@ -39,7 +39,7 @@ The system incorporates:
 
 ---
 
-## 🏗️ Project Architecture & Directory Structure
+## Project Architecture & Directory Structure
 ```
 used-car-price-estimator/
 ├── app.py                     # Flask web server & REST API endpoints
@@ -63,7 +63,7 @@ used-car-price-estimator/
 
 ---
 
-## 🚀 How to Run the Website Locally
+##  How to Run the Website Locally
 
 ### 1. Prerequisites
 Ensure you have Python 3.10+ installed.
@@ -154,7 +154,7 @@ http://127.0.0.1:5001
 
 ---
 
-## 📊 Features & UI Capabilities
+##  Features & UI Capabilities
 1. **Interactive Form with Auto-fill**: Select Brand & Model, and default engine CC, power, mileage, and seats auto-fill automatically.
 2. **1-Click Test Presets**: Test with pre-configured popular cars (Creta Diesel, Swift Petrol, Honda City CVT, Fortuner 4x4, BMW 3 Series) with a single click.
 3. **Fair Negotiation Band**: Shows lower and upper fair price bands for balanced buyer-seller negotiations.
