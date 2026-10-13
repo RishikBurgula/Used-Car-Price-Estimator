@@ -91,7 +91,7 @@ http://127.0.0.1:5001
 
 ---
 
-## 🔌 REST API Endpoints
+##  REST API Endpoints
 
 ### 1. Predict Car Price
 - **URL**: `/api/predict`
